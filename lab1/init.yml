@@ -5,7 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message: what a sluth! you caught us, good work!
+    banner_message: what a sleuth! you caught us, good work!
 
   tasks:
   - name: configure {{ inventory_hostname }} hostname
